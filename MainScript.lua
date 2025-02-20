@@ -2,7 +2,7 @@
 
 local gui
 local success, errorMessage = pcall(function()
-    gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinorana/UI-Libraries/main/LunaUI.lua"))() -- Или другой URL для LunaUI
+    gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/caboyd/LunaUI-ClassicFix/refs/heads/classic/LunaUnitFrames.lua"))() -- Или другой URL для LunaUI
 end)
 
 if not success then
